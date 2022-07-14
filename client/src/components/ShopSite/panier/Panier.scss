@@ -1,0 +1,72 @@
+.bProductLineDescTitle {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    max-height: 36px;
+    overflow: hidden;
+}
+.bProductLinePrice {
+    color: #f00;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: normal !important;
+}
+.bProductLineDescStock {
+        color: #44c260;
+    font-size: 13px;
+    position: relative;
+}
+.bProductEpuise {
+        color:rgb(245, 57, 57);
+    font-size: 13px;
+    position: relative;
+}
+.bDeleteProduct {
+    border-right:2px solid #d7d9e4;
+    color: #878787;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 14px;
+    padding: 0 20px;
+    margin-right: 7px;
+    height: 18px;
+    text-align: center;
+}
+.Nb_Items{background: none;
+    border: 1px solid rgb(158, 156, 156);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 32px;
+    padding-left: 4px;
+    width: 100px;}
+    
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+.bMainTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.bSummaryPriceBloc {
+    background-color: #fff;
+    border-radius: 3px;
+    margin-bottom: 14px;
+    margin-top: 15px;
+    padding: 20px 20px 14px;
+}
+.bSummaryPriceLabel {
+    // display: table-cell;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    // vertical-align: top;
+    // white-space: nowrap;
+}
+.bSummaryPrice {
+    color: #f00;
+    font-size: 28px;
+    height: 26px;
+    line-height: 26px;
+    font-weight: normal !important;
+}

@@ -1,0 +1,166 @@
+.carouAnimcoContainer{
+    display: table;
+    margin: 20px 0;
+    table-layout: fixed;
+    width: 100%;
+    position: relative;
+    //   width: 2500px;
+
+  
+}
+.carouAnimcoContainer>div{
+    width: 1500px;
+}
+img,span{
+    
+    overflow-y: hidden;
+}
+.carouAnimco{
+        border: 1px solid #e3e4ec;
+    display: table-cell;
+    min-height: 290px;
+    width: 100%;
+    vertical-align: top;
+
+}
+.carouAnimco .cPdtItStar, .carouAnimco .cPdtItMecacoUsedProduct {
+    margin-top: 3px;
+}
+.cPdtItStar span {
+    color: #878787;
+    display: inline-block;
+    //height: 12px;
+    font-size: 12px;
+    padding-left: 4px;
+    vertical-align: bottom;
+}
+.carousell{
+  //  height: 31em;
+    overflow: hidden;
+    position: relative;
+        width: 2500px;
+    transition: all 1s ease-out;
+} 
+// .noSel{
+// user-select: none;
+// } 
+
+.crLast{
+    border-radius: 0 5px 5px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    left: 0;
+}
+
+.crLast, .crNext {
+    background-color: rgba(196, 190, 190, 0.498);
+    cursor: pointer;
+    height: 90px;
+    position: absolute;
+    text-align: center;
+     top: 93px ;
+    width: 45px;
+    z-index: 3;
+}
+
+.crNext {
+    border-radius: 5px 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    // padding: 0 12px 0 15px;
+    right: 0;
+    } 
+    .crSUl{
+        background: #fff;
+   // height: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0 7px;
+    white-space: nowrap;
+}
+.stroken {
+    color: #323232;
+    display: inline-block;
+    text-decoration: line-through;
+}
+.carouAnimco .cPdtItem .price {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: bottom;
+    width: 40%;
+    margin-right: 10px;
+}
+.stroken {
+    font-size: 15px;
+    margin-top: 2px;
+    vertical-align: bottom;
+}
+.cPdtItTit {
+    // font-weight: bold;
+    height: 2em;
+    line-height: 1em;
+    margin-top: 8px;
+        color: #323232;
+    cursor: pointer;
+    font-size: 12px;
+        margin-top: 8px;
+
+    overflow: hidden;
+    white-space: normal;
+}
+.cPdtItem .ecoBlk {
+    background: #fff;
+    color: #323232;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    left: 0;
+    margin-top: 7px;
+    padding: 0;
+    position: static;
+    text-align: left;
+    top: 10px;
+}
+.carouAnimco .cPdtItImg {
+    height: 140px;
+    width: 140px;
+    vertical-align: middle;
+    display: block;
+    margin: auto;
+
+}
+.sup {
+    font-size: .5em;
+        vertical-align: super;
+            font-weight: bold;
+    line-height: normal;
+}
+.priceColor {
+    color: #e23a05!important;
+}
+.cPdtItMecaco {
+        font-size: 12px;
+    font-weight: bold;
+    margin-top: 0;
+    position: relative;
+    color: #2c3b4a;
+    font-weight: bold;
+    height: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    overflow-y: hidden;
+}
+.carouAnimco .cPdtItem {
+    height: inherit;
+}
+.crSUl li {
+    display: inline-block;
+    // height: 100%;
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    vertical-align: top;
+    margin-right: 5px;
+}

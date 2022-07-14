@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./template.css">
+        
+    </head>
+    <body>
+        
+        <div class="top">
+            <h2>Bonjour {{userInfo.firstName}} {{userInfo.lastName}}</h2>
+            <p>Confirmation de la commande </p>
+        </div>
+        <div>
+            <div class="midde">
+                    <div class="middleDiv">
+                        <p>Votre commande sur Salim Pap est en cours de préparation.</p>
+                    </div>
+                    <div class="middleDiv">
+                        <h3>DÉTAILS DE LA COMMANDE</h3>
+                            <div class="inf">
+                                <span class="titreMiddle">Methode de Livraison :</span>
+                                <span class="Info">{{CmdInfo.LivMeth}}</span>
+                            </div>
+                            <div class="inf">
+                                <span class="titreMiddle">Methode de Paiment :</span>
+                                <span class="Info">{{CmdInfo.PaimentMeth}}</span>
+                            </div>
+                        <span></span>
+                    </div>
+        
+        <table>
+            <tr>
+                <th>Référence</th>
+                <th>Produit</th>
+                <th>Prix Unitaire</th>
+                <th>quantité</th>
+                <th>Prix Total</th>
+            </tr>
+           
+                 <script>
+                     var element = document.querySelector(".ii")
+                        // {{TotalProducts.forEach(item=>{<tr>
+                        //     <td>{item.product}  </td>
+                        //     <td>{item.name}  </td>
+                        //     <td>{item.price} </td>
+                        //     <td>{item.qty} </td>
+                        //     <td>{item.qty}*{item.price} </td>
+                        //     </tr>
+
+                        // })}};
+
+                </script>
+        <!-- ; -->
+    
+                <tr >
+                    <td class="ii"></td>
+                </tr>
+        </table> 
+
+            </div>
+        <div class="bottomCommand">
+        <a href=http://localhost:3000/confirm/{{CmdInfo.CmdRef}}> click ici </a> pour confirmer votre commande
+        <a href=http://localhost:3000/confirm> click ici </a> pour annuler votre commande
+        
+    </div>
+
+    <div class="bottom">
+                forniture tel:55555555 addresse:
+    </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,174 @@
+@import "../global.scss";
+.SiteHomeContainer {
+    display: flex;
+    flex-direction: column;
+    border-color: #c9c9c9;
+    .homeTop{
+        display: flex;
+        width: 100%;
+        margin-top: 1vw;
+        align-items: center;
+        justify-content: center;
+           .homeLogo {
+               width: 25%;
+
+               img {
+                   height: 10vw;
+                   width: 15vw;
+                   @include mobile {
+                       height: 17vw;
+                       width: 22vw;
+                       margin-right: 1vw;
+                   }
+               }
+           }
+        .contact{
+            
+                display: flex;
+                width: 43%;
+                margin-right: 150px;
+                justify-content: space-around;
+         @include mobile {
+              flex-direction: column;
+              margin-top: 1vw;
+              width: 30%;
+              margin-right: 100px;
+         }
+            span{
+                font-family: emoji;
+                color: #696e6e;
+                margin-right: 8px;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                .Add{
+                    margin-left: 1vw;
+                }
+                 @include mobile {
+                     margin-top: 1vw;
+                 }
+
+        }
+        .address{
+            font-size: 18px;
+            color: royalblue;
+        }
+        }
+        .socialMedia{
+            display: flex;
+            cursor: pointer;
+            .fb {
+                margin-right: 5px;
+                border-radius: 74%;
+                
+                
+                
+            }
+        }
+    }
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    height: 20vw;
+    flex-direction: column;
+    
+     @include mobile {
+         justify-content:space-evenly;
+         height: 38vw;
+     }
+ 
+  
+         /* CSS */
+         .Librarie {
+            margin-bottom: 2vw;
+             background-color: #FFC229;
+             box-shadow: #FF6314 0 -6px 8px inset;
+            //  transform: scale(1.125);
+             appearance: none;
+             border-radius: 40em;
+             border-style: none;
+             box-shadow: #979491 0 -12px 6px inset;
+             box-sizing: border-box;
+             color: #000000;
+             cursor: pointer;
+             display: inline-block;
+             font-family: -apple-system, sans-serif;
+             font-size: 40px;
+             font-weight: 700;
+             letter-spacing: -.24px;
+             outline: none;
+             padding: 1vw;
+             quotes: auto;
+             text-align: center;
+             text-decoration: none;
+             transition: all .15s;
+             user-select: none;
+             -webkit-user-select: none;
+             touch-action: manipulation;
+             min-width: 27vw;
+                    @include mobile {
+                       padding: 2vw;
+
+                    }
+               a {
+                   color: inherit;
+                   text-decoration: none;
+                   text-transform: uppercase;
+                   text-transform: uppercase;
+                   font-family: "museo-slab", serif;
+                   font-size: 40px;
+                   text-align: center;
+
+                   @include mobile {
+                       flex-direction: column;
+                       font-size: 30px;
+                       margin: 1vw;
+
+                   }
+
+               }
+         }
+
+         .Librarie:hover {
+             background-color: #032558;
+             box-shadow: #c9bfb9 0 -6px 8px inset;
+             transform: scale(1.125);
+             color: #fcf7f7;
+         }
+
+         .Librarie:active {
+             transform: scale(1.025);
+         }
+
+      
+ 
+}
+
+.homeBottom{
+    height: 40vw;
+    background-color: rgb(44, 43, 43);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3vw;
+   
+    img{
+        height: 25vw;
+        width: 25vw;
+        border-radius: 50%;
+    }
+    .bio{
+           color: #c9c9c9;
+           line-height: 41px;
+           text-transform: capitalize;
+           width: 45%;
+
+    }
+
+}
+
+}

@@ -1,0 +1,15 @@
+.home{
+    /* flex: 4; */
+    display: flex;
+    margin-top: 100px;
+    height: auto;
+    margin-bottom: 5vw;
+    
+}
+.bottomContainer {
+    flex: 3;
+}
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}

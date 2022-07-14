@@ -1,0 +1,24 @@
+.ProdContainer{
+    width: 90%;
+    margin: 1vw;
+    display: flex;
+        justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 3px solid gray;
+    img{
+        height: 7vw;
+        width: 7vw;
+        margin-right: 1vw;
+    }
+    .ProdName{
+        width: 20vw;
+        margin-right: 2vw;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button{
+        border: none;
+        background-color: transparent;
+    }
+
+}

@@ -1,0 +1,141 @@
+ @import "../../../global.scss";
+.AchatInfo {
+  width: 353px;
+  height: 50vh;
+  margin: 5vw 27vw;
+  position: fixed;
+  top: -900px;
+  z-index: 2;
+  transition: all 1s ease;
+  background: $mainColor;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-sizing: border-box;
+
+  &.visible {
+    display: block;
+  }
+  &.active {
+    top: 100px;
+    @include mobile {
+      top: 49px;
+      margin: 5vw 10vw;
+    }
+  }
+  .AchatProduitContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 2px;
+      padding: 0px;
+      .succes {
+        color: #83e51e;
+        margin: 1px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .button-close {
+        color: rgb(151, 50, 50);
+      }
+    }
+
+    @include mobile {
+    }
+    .ProdInfo {
+      display: flex;
+      justify-content: space-evenly;
+      .left {
+        margin: 1vw;
+        img {
+          height: 10vw;
+          width: 10vw;
+
+          border: 1px solid rgb(177, 176, 176);
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 1vw;
+        .ProdName {
+          color: #2d2d76;
+          font-weight: 700;
+          font-style: italic;
+          margin-left: 1vw;
+          text-transform: uppercase;
+          font-style: italic;
+
+          font-size: 21px;
+        }
+        .quantites {
+          color: rgb(54, 50, 50);
+          font-weight: 600;
+          .Nb {
+            color: #ba0e0e;
+            font-size: larger;
+            font-weight: 800;
+            margin-left: 2px;
+          }
+        }
+
+        .prixTotal {
+          color: rgb(54, 50, 50);
+          font-weight: 600;
+          .Nb {
+            margin-left: 2px;
+            color: #ba0e0e;
+            font-size: larger;
+            font-weight: 800;
+          }
+        }
+      }
+    }
+    .panierInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 8vw;
+      margin-left: 1vw;
+      .Panierproduits {
+        color: #060606;
+        font-style: oblique;
+        .PrixSpan {
+          color: #252934;
+          font-size: larger;
+          font-weight: 800;
+          margin-left: 2px;
+        }
+      }
+    }
+    .bottomP {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 3px;
+      button {
+        height: 3vw;
+        text-transform: uppercase;
+        font-family: auto;
+        font-weight: bold;
+        font-size: 13px;
+        background-color: #f7f4f1;
+        border: 1px solid #a1a19f;
+      }
+      .GoBack:hover {
+        background-color: rgb(20, 20, 20);
+        border-color: rgb(20, 20, 20);
+        color: rgb(255, 254, 254);
+      }
+      .Commander:hover {
+        background-color: rgb(167, 4, 4);
+        border-color: rgb(167, 4, 4);
+        color: rgb(255, 254, 254);
+      }
+    }
+  }
+}

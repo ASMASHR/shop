@@ -1,0 +1,47 @@
+.StNavContainer{
+    background-image: url('https://www.photographe-elisabeth-mazet.com/wp-content/uploads/2020/03/1136_gettyimages-108161282.jpg');
+  min-height: 200px;
+  background-size: 100vw 300px;
+  background-position:bottom;
+background-repeat: no-repeat;
+    height: 5vw;
+    .stCont{
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.377);
+        display: flex;
+        flex-direction: column;
+            justify-content: space-between;
+        .StudioLogo{
+            font-size: 30px;
+            margin-top: 3vw;
+            margin-left: 20vw;
+        }
+        .bottom{
+           
+            display: flex;
+            height: 3vw;
+            background-color: #fff;
+            ul{
+                 width: 90%;
+                text-align:end;
+                align-items: center;
+                margin-top: 1vw;
+                li{
+                    list-style: none;
+                    display: inline;
+                   margin-left:20px;
+                   
+                   
+                    a{
+                        color: rgb(5, 5, 5);
+                        text-decoration: none;
+                        
+                        
+                    }
+                   
+                }
+            }
+        }
+
+    }
+}

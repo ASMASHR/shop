@@ -1,0 +1,55 @@
+<!-- VOS CODES D'ACCÈS SUR TALOS. -->
+<html>
+  <head>
+    <link rel="stylesheet" href="./template.css" />
+  </head>
+  <body>
+    <div class="top">
+      <h2>Bonjour {{userInfo.firstName}} {{userInfo.lastName}}</h2>
+      <p>
+        merci d'avoir créé votre compte client chez
+        <a href="http://localhost:3000">Salim Papietrier</a>
+      </p>
+    </div>
+    <div class="middle">
+      <div class="middleDiv">
+        <h3>VOS CODES D'ACCÈS :</h3>
+        <div class="inf">
+          <span class="titreMiddle">Addresse e-mail:</span>
+          <span class="Info">{{userInfo.email}}</span>
+        </div>
+        <div class="inf">
+          <span class="titreMiddle"> Mot de passe:</span>
+          <span class="Info">{{newpass}}</span>
+        </div>
+        <div class="inf">
+          <span class="titreMiddle">
+            Pour changer votre mot de passe cliquer
+            <a href="http://localhost:3000/ChangerPass"> ici</a>
+          </span>
+        </div>
+      </div>
+      <div class="middleDiv">
+        <h3>CONSEILS DE SÉCURITÉ IMPORTANTS :</h3>
+        <ol>
+          <li>Vos informations de compte doivent rester confidentielles.</li>
+          <li>Ne les communiquez jamais à qui que ce soit.</li>
+          <li>Changez votre mot de passe régulièrement.</li>
+          <li>
+            Si vous pensez que quelqu'un utilise votre compte illégalement,
+            veuillez nous prévenir immédiatement.
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="bottom">
+      <span class="nomS">fourniture</span>
+
+      <span class="titreG">tel:</span>
+      <span class="Info">55555555</span>
+
+      <span class="titreG">addresse:</span>
+      <span class="Info">hell add</span>
+    </div>
+  </body>
+</html>

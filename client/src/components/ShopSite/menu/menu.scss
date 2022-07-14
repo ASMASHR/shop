@@ -1,0 +1,61 @@
+@import "../../../global.scss";
+.menu {
+  width: 500px;
+  height: 100vh;
+   background-color:white;
+  position: fixed;
+  top: 0;
+  right: -500px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
+  transition: all 1s ease;
+  &.active {
+     right: 0;
+    // left: 0;
+  }
+  .Menu_Top{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+   margin-top: 2vw; 
+  margin-bottom: 10px;
+  }
+  .Menu_Top p{
+    text-transform: uppercase;
+    font-size: 25px;
+   
+
+  }
+   .CancelIcon{
+     font-size:40px;
+     font-weight: bold;
+     color: rgba(71, 65, 65, 0.557);
+     
+   }
+      .CancelIcon:hover{
+        color: rgba(255, 0, 0, 0.525);
+      }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: $mainColor;
+    width: 60%;
+    li {
+      margin-bottom: 25px;
+      a {
+        font-size: inherit;
+        color: inherit;
+        text-decoration: none;
+      }
+      &:hover {
+        font-weight: 500;
+      }
+    }
+  }
+}

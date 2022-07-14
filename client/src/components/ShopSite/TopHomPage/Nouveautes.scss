@@ -1,0 +1,32 @@
+@import "../../../global.scss";
+.NouvCont img {
+  height: 25vw;
+   width:100vw;
+}
+.NouvCont{
+  width: 100%;
+}
+
+.NouvCont .carousel .carousel-control-prev-icon, .NouvCont .carousel .carousel-control-next-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 61px;
+    
+    background-color:  rgba(12, 15, 44, 0.402);
+  }
+ .NouvCont .carousel-indicators {
+  position: absolute;
+    right: 0;
+    bottom: -16px;
+    left: 120px;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgba(12, 15, 44, 0.402);
+    width: 50%;
+        @include mobile {
+          left: 69px;
+        }
+    
+}

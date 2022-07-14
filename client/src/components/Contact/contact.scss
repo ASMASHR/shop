@@ -1,0 +1,129 @@
+@import "../../global.scss";
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  background: #252934;
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-top: 69px;
+
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+    .top {
+      // position: absolute;
+      // left: -500px;
+      margin-bottom: 1vw;
+      // animation: 3s slidein;
+
+      // @keyframes slidein {
+
+      //   from {
+      //     transform: scaleX(0);
+      //   }
+      //   to {
+      //     transform: scaleX(1);
+      //   }
+      // }
+      h1 {
+        font-size: 30px;
+        color: #fff;
+        font-family: "raleway-bold";
+        // position: absolute;
+        // left: 0;
+        // style={{transform:'translateX(20vw)'}}
+        // transition: all 1s ease-in;
+      }
+      .underL {
+        height: 5px;
+        width: 118px;
+        margin: 5px 2px 1px 10px;
+        background-color: #fff;
+      }
+    }
+    .buttom {
+      display: flex;
+      width: 80%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      @include mobile {
+        flex: 2;
+        justify-content: space-between;
+      }
+      h2 {
+        font-size: 17px;
+        color: $SecondColor;
+        font-weight: 600;
+      }
+      form {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        @include mobile {
+          width: 100%;
+          height: 80%;
+        }
+        input {
+          background: #1e242c;
+          border: 0;
+          box-sizing: border-box;
+          color: #fff;
+          display: block;
+          font-size: 12pt;
+          margin-bottom: 3px;
+          outline: none;
+          padding: 10px 15px;
+          width: 100%;
+        }
+        textarea {
+          background: #1e242c;
+          border: 0;
+          box-sizing: border-box;
+          color: #fff;
+          display: block;
+          font-size: 12pt;
+          margin-bottom: 3px;
+          outline: none;
+          padding: 10px 15px;
+          width: 100%;
+          @include mobile {
+            width: 100%;
+            height: 130px;
+          }
+        }
+        button {
+          margin: 1vw 1vw 1vw 10vw;
+          width: 150px;
+          height: 60px;
+          color: whitesmoke;
+          background-color: $SecondColor;
+          border: none;
+          font-size: 18px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: transparent;
+          border: 1px solid $SecondColor;
+        }
+        span {
+          color: #04c2c9;
+          margin: 1vw;
+          padding: 1vw;
+          @include mobile {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}

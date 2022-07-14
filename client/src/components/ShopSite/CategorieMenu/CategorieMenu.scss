@@ -1,0 +1,20 @@
+.menueContainer {
+  width: 93vw;
+  height: 45vh;
+  background-color: rgba(253, 253, 250, 0.959);
+  position: fixed;
+  top: 101px;
+  left: 29px;
+  //   right: -300px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+  opacity: 0;
+  &.active {
+    opacity: 1;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,65 @@
+
+body{
+border: 1px solid rgb(194, 194, 194);
+
+}
+.top{
+    
+    height: 5vw;
+    text-transform: uppercase;
+
+    text-align: center;
+        margin: 2vw 0vw;
+
+}
+.top h2{
+    margin:1vw 0vw ;
+}
+.top p{
+    font-size: 18px;
+    color: rgb(134, 122, 122);
+    text-decoration: none;
+}
+.middle{
+    margin: 2vw;
+    width: 60vw;
+
+}
+.middleDiv{
+    border: 1px solid rgb(182, 179, 179);
+    background-color: rgba(206, 206, 206, 0.74);
+    padding: 10px;
+    margin-bottom: 2vw;
+   
+}
+
+.middleDiv h3 {
+    text-transform: uppercase;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:1vw;
+    padding: 10px;
+    border-bottom: 1px solid rgb(129, 126, 126);
+}
+.inf{
+    margin-bottom: 3px;
+}
+.titreMiddle{
+    font-weight: bold;
+}
+.bottom{
+    text-align: center;
+    margin-top: 2vw;
+    padding: 2vw 1vw;
+    color: rgb(77, 73, 73);
+    font-size: 16px;
+    border-top: 1px solid gray;
+    display: flex;
+}
+.titreG{
+    font-weight: bold;
+    margin: 2px;
+}
+.Info{
+  margin: 2px;
+}

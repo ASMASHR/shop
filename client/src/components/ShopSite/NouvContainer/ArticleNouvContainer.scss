@@ -1,0 +1,119 @@
+@import "../../../global.scss";
+.ArticleNouvContainer{
+   width: 80%;
+
+  margin: 1vw 0vw;
+  display: flex;
+  flex-direction: column;
+}
+.topNouArticle{
+  display: flex;
+  justify-content: space-between;
+  margin: 1vw;
+  border-bottom: 1px solid gray;
+  width: 92%;
+    font-weight: 700;
+    font-size: 16px;
+  .arrows {
+    position: relative;
+    display: flex;
+    width: 5vw;
+    justify-content: space-around;
+    height: 83%;
+    // top: 5vw;
+    margin-right: 5vw;
+
+    .row {
+      font-size: 25px;
+
+      // border-radius: 50%;
+      color: $ThirdColor;
+    }
+
+    .rows:hover {}
+
+  }
+
+  h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $mainColor;
+  }
+  }
+  .ProdNouvCon {
+    display: flex;
+    width: 28vw;
+    height: 25vw;
+    margin: 1vw;
+    ;
+    border: 10px solid #FFFFFF;
+    box-shadow: 1px 1px 2px #e6e6e6;
+  
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    cursor: pointer;
+
+    .prodInfo {
+      display: flex;
+      // align-items: center;
+      justify-content: space-between;
+      width: 55%;
+      flex-direction: column;
+      margin-left: 15px;
+    }
+
+    .imgCont {
+      height: 18vw;
+      width: 45%;
+    }
+
+    img {
+      height: 70%;
+      width: 70%;
+    }
+
+    img:hover {
+      cursor: zoom-in;
+      height: 100%;
+      width: 100%;
+
+    }
+
+    .prodName {
+      margin-top: 40px;
+      font-size: 18px;
+      line-height: 19px;
+      width: 100%;
+      font-weight: bold;
+      color: $FifthColor;
+      margin-bottom: 2vw;
+    }
+  }
+  .ArticlesContainer {
+    width: 140vw;
+
+// left: 90vw;
+transition: all 1s ease-out;
+display: flex;
+  }
+  .ajouterPanier {
+    background-color: $SecondColor;
+    color: $ThirdColor;
+    text-align: center;
+    padding:10px 7px;
+    text-transform: uppercase;
+    margin-left: 1vw;
+    font-size: 16px;
+    border: 1px solid gray;
+    width: 100%;
+
+  }
+
+  .ajouterPanier:hover {
+    color: $SecondColor;
+    font-weight: bold;
+    background-color: $ThirdColor;
+
+  }

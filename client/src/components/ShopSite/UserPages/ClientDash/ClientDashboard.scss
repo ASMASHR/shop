@@ -1,0 +1,167 @@
+.myProfileDiv {
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+.Left {
+    display: flex;
+    flex-direction: column;
+    border-right: 3px gray solid;
+    padding: 1vw;
+    width: 25%;
+    margin-right: 1vw;
+}
+
+.Profile-pic {
+    display: flex;
+    height: 16vw;
+    /* width: 40%;  */
+    /* align-items: center;
+  justify-content: center; */
+    // margin-bottom: 2vw;
+    margin-left: 1vw;
+    // padding-left: 5vw;
+    position: relative;
+}
+
+.pictureP {
+    height: 15vw;
+    width: 15vw;
+    border: 5px solid whitesmoke;
+    border-radius: 50vw;
+    object-fit: cover;
+}
+
+.editPicture {
+    height: 15vw;
+    width: 15vw;
+    color: rgb(58, 58, 61);
+    text-align: left;
+    top: 12vw;
+    text-decoration-line: none;
+    position: absolute;
+    left: 13vw;
+  
+}
+
+.myProfileDiv .fa-camera,
+.myProfileDiv .fa-edit {
+    font-size: 2vw;
+    padding-left: 0%;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
+
+.info span {
+    font-family: "Font Awesome 5 Brands";
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(231, 151, 60);
+    padding-left: 2vw;
+}
+
+.info h4 {
+    margin-right: 1vw;
+    margin-left:5px;
+    font-size: 20px;
+    font-family: "Font Awesome 5 Free";
+    font-style: italic;
+    color: gray;
+}
+
+.info h5 {
+    margin-right: 1vw;
+    margin-left: 2vw;
+}
+
+.info h6 {
+    margin-right: 1vw;
+    margin-left: 2vw;
+}
+
+.EditInfo {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 1px;
+    align-items: center;
+    align-content: center;
+}
+
+.EditInfo a {
+    color: black;
+}
+.right{
+    
+
+}
+.cmdContainer{
+    border:1px solid gray;
+    text-align: center;
+}
+.livPaimentMeth{
+    display: flex;
+    justify-content: space-around;
+}
+.refetat{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+td img{
+    height: 3vw;
+    width: 3vw;
+}
+.name{
+    width: 35vw;
+}
+table{
+    text-align: start;
+    justify-content: start;
+    align-items: center;
+    font-size: 13px;
+       border-color: black;
+       border-style: solid;
+       border-width: 1px;
+}
+td{
+    
+}
+table,th,
+td {
+    padding: 15px;
+    text-align: left;
+    // border-bottom: 1px solid #ddd;
+    //  border-right: 1px solid rgb(80, 63, 63);
+    // width: 7vw;
+     
+}
+tr:hover {
+    background-color: coral;
+}
+.totaltva{
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-end;
+        align-items: flex-end;
+       
+        padding: 1vw;
+}
+.titreG{
+    font-weight: bold;
+    margin-right: 3px;
+}
+.Divtable{
+    margin-top: 1vw;
+}

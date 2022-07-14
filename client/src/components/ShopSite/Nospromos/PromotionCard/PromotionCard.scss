@@ -1,0 +1,119 @@
+@import "../../../../global.scss";
+.ProdCon {
+    display: flex;
+    width: 28vw;
+    height: 25vw;
+    margin: 1vw;;
+    border: 10px solid #FFFFFF;
+    box-shadow: 1px 1px 2px #423b3b;
+    position: relative;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    cursor: pointer;
+    @include mobile {
+          // display: none;
+          
+        }
+    .prodInfo {
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        width: 55%;
+        flex-direction: column;
+        margin-left: 15px;
+    
+    }
+.imgCont{
+ height: 18vw;
+ width: 45%;
+}
+    img {
+      height: 70%;
+       width: 70%;
+      }
+      img:hover{
+       cursor:zoom-in;
+       height: 100%;
+       width: 100%;
+       
+      }
+
+    .prodName {
+        margin-top: 40px;
+        font-size: 18px;
+        line-height: 19px;
+        width: 100%;
+        font-weight: bold;
+        color:$mainColor;
+        margin-bottom: 2vw;
+    }
+}
+.prodpriceBefore{
+    font-size: 17px;
+    color: gray;
+    text-decoration:line-through;
+}
+.prodpriceAfter{
+    color: rgba(223, 6, 6, 0.808);
+    font-weight: bold;
+    font-size: 25px;
+}
+.rateLove{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Promoss{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4vw;
+    height: 4vw;
+    background-color: $mainColor;
+    border-radius: 50%;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-image: url("https://ouch-cdn2.icons8.com/oBjshY-0C1uBl4duRSA6UaK88GyhxwR1B71egS-MIYE/rs:fit:912:912/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvOTcw/L2M4MDJhNDZmLTFi/ODEtNGE0OC1iMjM4/LTk0MmUxOGEyNTRl/Mi5zdmc.png");
+}
+.PricesContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.ajouterPanierPromo{
+    background-color: $SecondColor;
+    color: $ThirdColor;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 1vw;
+    font-size: 16px;
+    border: 1px solid gray;
+    
+}
+
+.ajouterPanierPromo:hover{
+    color : $SecondColor;
+    font-weight: bold;
+    background-color: $ThirdColor;
+  
+}
+.addFavourite {
+    color: gray;
+    font-size: 25px;
+    
+}
+.addFavourite:hover {
+    color: rgb(233, 13, 13);
+}
+.active{
+    color: red;
+}

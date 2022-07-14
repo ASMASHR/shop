@@ -1,0 +1,250 @@
+.confirmationContainer {
+    position: relative;
+    top: 150px;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .center{
+        display: flex;
+        border: 3px solid rgb(168, 165, 165);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 1vw;
+        width: 80%;
+        .leftDiv{
+            width: 30%;
+            margin-right: 1vw;
+            .firstCol{
+                display: flex;
+                justify-content:space-between;
+                border-bottom: 1px solid gray;
+                padding-bottom: 1vw;
+                margin-bottom: 1vw;
+                
+                .vosDetails{
+                    display: flex;
+                    align-items: center;
+                    font-size: 23px;
+                    .UserIcon{
+                        font-size: 30px;
+                    }
+                   
+                }
+                 button {
+                     width: 7vw;
+                     height: 3vw;
+                     background-color: rgb(26, 8, 192);
+                     
+                     border: none;
+                     font-size: 17px;
+                     a{
+                        color: antiquewhite; 
+                         text-decoration: none;
+                     }
+
+                 }
+                 button:hover{
+                  background-color:rgb(255, 255, 255) ;
+                      
+                     border: 1px solid rgb(26, 8, 192);
+                   a{  color: rgb(26, 8, 192);}  
+                 }
+            }
+            .secondCol,
+            .thirdCol {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 2vw;
+
+                .inputContainer{
+                        display: flex;
+                        flex-direction: column;
+                        align-content: space-around;
+                        margin: 5px 0px;
+                        height: 55px;
+                        justify-content: space-between;
+                        input{
+                            height: 2vw;
+                            border: 1px solid rgb(139, 139, 139);
+                        }
+                        .inputClick{
+                                display: flex;
+                                border: 1px solid gray;
+                                align-items: center;
+                                justify-content: space-between;
+                                input{
+                                    width: 90%;
+                                    border: none;
+                                }
+                                .CalShow{
+                                    background-color: transparent;
+                                    border: none;
+                                    .DateIcon{
+                                        background-color: transparent;
+                                    }
+                                }
+
+                        }
+                        .CalendarDiv{
+                            background-color: #fff;
+                            z-index: 7;
+                            width: 100%;
+                            
+                        }
+                        
+                }
+                .chec{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 5px 0px;
+                    justify-content: space-between;
+                    height: 5vw;
+                    .CheckCreation {
+                        display: flex;
+                        justify-content: flex-start;
+                        input{
+                            margin-right: 2px;
+                            height: 30px;
+                            width: 25px;
+                            margin-top: 0px;
+                        }
+                        span{
+                            font-size: 15px;
+                            line-height: 20px;
+                        }
+                    }
+                    .News {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                        .checInput {
+                            margin-right: 2px;
+                            height: 16px;
+                            width: 16px;
+                        }
+
+                        span {
+                            font-size: 15px;
+                            line-height: 20px;
+                        }
+                    }
+
+                }
+                .AdressT{
+                    font-size: 21px;
+                    margin-bottom: 1vw;
+                    padding-bottom: 3px;
+                    border-bottom: 3px solid gray;
+                }
+            }
+
+        }
+        .rightDiv{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            .topDiv{
+                display: flex;
+                width: 100%;
+                    justify-content: space-between;
+                    height: 20vw;
+                .MethodLivraison,
+                .MethodPaiment {
+                    display: flex;
+                    flex-direction: column;
+                    width: 45%;
+                    .headDiv{
+                        height: 3vw;
+                        border-bottom: 1px solid gray;
+                        padding-bottom: 1vw;
+                        margin-bottom: 1vw;
+                        display: flex;
+                        align-items: center;
+                        font-size: 23px;
+
+                        .carIcon,
+                        .CreditIcon {
+                            font-size: 30px;
+                            transform: rotateY(180deg);
+                            margin-right: 5px;
+                        }
+
+                                         
+   
+                    }
+                    .bodyDiv{
+                            display: flex;
+                            flex-direction: column;
+                            height: 15vw;
+                            
+                            justify-content: space-around;
+                    }
+                   
+                } 
+            }
+                .bottomDiv{
+                    display: flex;
+                    flex-direction: column;
+                    .headDIV{
+                          height: 3vw;
+                          border-bottom: 1px solid gray;
+                          padding-bottom: 1vw;
+                          margin-bottom: 1vw;
+                          display: flex;
+                          align-items: center;
+                          font-size: 23px;
+                           .ShoppingIcon {
+                               font-size: 30px;
+                           }
+                    }
+                    .bodyDIV{
+                      display: flex;
+                      flex-direction: column;
+                      min-height: 50vw;
+                      .Itemcontainer{
+                          display: flex;
+                          justify-content: space-around;
+                          align-items: center;
+                          margin-bottom: 1vw;
+                          border-bottom: 3px solid rgba(138, 131, 131, 0.678);
+                          img{width: 8vw;
+
+                        height: 8vw;}
+                        .prodName{
+                            width: 12vw;
+                        }
+                      }
+
+                    }
+                }
+                .ConfirmDiv{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    a{
+                        color:brown;
+                        text-decoration: none;
+                        font-style: italic;
+                        font-size: 20px;
+
+                    }
+                    a:hover{
+                        color: tomato;
+                    }
+                    button{
+                        height: 4vw;
+                        background-color: black;
+                        border: none;
+                        color: aliceblue;
+                        font-size: 15px;
+                    }
+                    button:hover{
+                        background-color: rgb(87, 86, 86);
+
+                    }
+                }
+        }
+
+    }
+}

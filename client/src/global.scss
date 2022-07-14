@@ -1,0 +1,29 @@
+$mainColor: #293847;
+$SecondColor: white;
+$ThirdColor: #363636;
+$FourthColor: #f6f6f6;
+$FifthColor: #e23a05!important;
+// #97999b#e4ddf4; #943d24;
+$Width: 1127px;
+// min-width: 768px
+@mixin mobile {
+  @media (max-width:#{$Width}) {
+    @content;
+  }
+}
+@keyframes leftIn {
+  0% {
+    transform: skewX(20deg) translateX(-1000px);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@keyframes rightIn {
+  0% {
+    transform: skewX(20deg) translateX(+1000px);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
